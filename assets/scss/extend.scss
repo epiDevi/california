@@ -1,0 +1,17 @@
+.btn{
+    font-size: 1.2rem;
+    font-family: Work-Sa-Re;
+    color: $white;
+    border: 1px solid $white;
+    text-transform: uppercase;
+    width: 100px;
+    padding: 10px 0;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+    display: inline-block;
+
+    &:hover {
+        background-color: $white;
+        color: $black;
+    }
+}

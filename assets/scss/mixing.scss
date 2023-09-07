@@ -1,0 +1,17 @@
+// Mixing
+@mixin text-style($ff, $fs, $color){
+    font-family: $ff;
+    font-size: $fs;
+    color: $color;
+}
+
+@mixin flex-box($di, $ju, $al){
+    display: flex;
+    justify-content: $ju;
+    align-items: $al;
+}
+
+@mixin img-pos( $col, $row){
+    grid-column: $col;
+    grid-row: $row;
+}
